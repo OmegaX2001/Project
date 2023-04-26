@@ -1,0 +1,91 @@
+<html>
+<body style="background-color:violet;">
+
+<head>
+<title>Resources</title>
+<style>
+h1 {text-align: center;
+      font-style: italic;
+      font-size: 170%;}
+	  
+h2 {font-size: 250%;
+    color:purple
+}
+
+
+#familyphoto1 {
+   width: 250px;
+   height: 250px;
+   object-fit: contain;
+   object-position: left;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  
+  .para1 {
+  font-size: 170%;
+  top: 107px;
+  }
+</style>
+
+</head>
+
+<body>
+
+<div>
+<img src= "clipart2.png" alt="" id="familyphoto1">
+</div>
+
+<script>
+ document.body.style.backgroundImage = "url('background.jpg')";
+ 
+ 
+</script>
+<center> <img src="The Nesting Place 2.png" width="350" height="350"> </center>
+<h1 class="slogan">When you need to feel safe, we have your Nesting Place</h1>
+<img src="health.png" width="200px" height="200px" style="float:right";>
+<br>
+<h2 class="About">Resources</h2>
+<p>
+ <span class="para1">
+ These resources will help and inform you on any information you
+ <br><br>
+ need and any questions you need answered! From child care to health
+ <br><br>
+ screening you are more than likely to find the information you require!</span>
+ </p>
+<br>
+
+
+
+<img src="college.png" width="250px" height="250px" style="float:right";>
+
+
+<a href="https://www.childcare.virginia.gov/">Childcare</a> - helps parents access safe and quality child care services in their community that best suits their family’s needs <br><br>
+<a href="https://www.hhs.gov/programs/prevention-and-wellness/health-screenings/index.html">Health Screening</a> - Learn which tests you need to monitor your health <br><br>
+<a href="https://www.dss.virginia.gov/community/food_security/resources.cgi">Food Assistance</a> - Features resources for households working to put food on the table and the organizations that support them<br><br>
+<a href="https://www.dhcd.virginia.gov/rmrp">Rental Assistance</a> - Designed to support and ensure housing stability across the commonwealth<br><br>
+<a href="https://edu.gcfglobal.org/en/ged-prep-resources/ged-prep-resources/1/#">GED</a> - Online education isn’t new. We’ve been here for almost 20 years, and today we offer more tutorials than ever<br><br>
+<a href="https://www.schev.edu/students/paying-for-college">College</a> - Think you can’t afford college? Think again! There are multiple ways to pay for college, including some free ones,
+making a higher education more affordable and leaving you with less student debt<br><br>
+<a href="https://www.caring-closet.org/">Clothing Closet</a> - provides high-quality clothing, necessities and comfort items to children and families through partnerships with organizations and individuals<br><br>
+
+<img src="childcare.png" width="450px" height="450px" style="float:right";>
+<img src="BCSymbol.png" width="150px" height="150px" style="float:left";>
+<form>
+ <div class="form-container">
+     <h2>Contact Us</h2>
+     <input type="text" placeholder="Your Name" />
+     <input type="email" placeholder="E-Mail" />
+     <textarea cols="30" rows="3" placeholder="Type Your Message"></textarea>
+     <input type="submit" value ="Submit">
+	 Business email: theNestNplace@gmail.com
+ </div>
+ </form>
+
+<footer id="footer">
+        <h3>NestNPlace &copy; rights reserved</h3>
+    </footer>
+</body>
+
+</html>

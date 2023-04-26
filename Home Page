@@ -1,0 +1,108 @@
+<html>
+<body style="background-color:violet;">
+
+<head>
+  <title>NestNPlace</title>
+  <style>
+  h1 {text-align: center;
+      font-style: italic;
+      font-size: 170%;}
+  h2 {font-size: 250%;
+      color: darkblue;}
+  h4 {font-size: 170%;}
+  
+  #familyphoto1 {
+   width: 250px;
+   height: 250px;
+   object-fit: contain;
+   object-position: left;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  
+  #Logo {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+  }
+  
+  .para1 {
+  font-size: 170%;
+  top: 107px;
+  }
+  
+ </style>
+  
+</head>
+
+<body>
+<div>
+<img src= "clipart2.png" alt="" id="familyphoto1">
+
+</div>
+
+ <script>
+ document.body.style.backgroundImage = "url('background.jpg')";
+ </script>
+ <nav class="navbar">
+ <div class="navbar-container container">
+ <ul class="menu-items">
+                <li><a href="#About">About</a></li>
+				<li><a href="#Services">Services</a></li>
+				<li><a href="#Contact">Contact Us</a></li>
+ </ul>
+ 
+ <img src="The Nesting Place 2.png" style="width:25%;" id="Logo">
+ <h1 class="slogan">When you need to feel safe, we have your Nesting Place</h1>
+ <img src="stockphoto2.jpg" width="350px" height="350px" style="float:right";>
+ <br>
+ <section id="About">
+ <h2 class="About">About Us</h2>
+
+ <img src="motherandchild.png" width="200px" height="200px" style="float:left";>
+ 
+ <p>
+ <span class="para1">
+ Our goal is helping women overcome abusive relationships while maintaining
+ <br><br>
+ her dignity, self-respect and keeping her children safe from harm 
+ <br><br>
+ allowing families to remain intact! Bringing families back together, stronger 
+ <br><br>
+ and healthier and self-sufficient.</span>
+ </p>
+ </section>
+ 
+ <section id="Services">
+ <h2 class="Services">Our Services</h2>
+ <h4>• Housing Referrals/Rental Assistance (6 Months)</h4>
+ <img src="motherkiss.png" width="450px" height="450px" style="float:right";>
+ <h4>• Health Screenings - Hypertention, A1C, Cancer Screenings</h4>
+ <h4>• Continuing Education - GED, College, and FASFA Assistance</h4>
+ <h4>• Resume Help</h4>
+ <h4>• Clothing closet for job interviews</h4>
+ <h4>• Food assistance</h4>
+ <h4>• Child care services and Certification classes</h4>
+ <h4>• Bus passes</h4>
+ </section>
+ 
+ <br>
+ <section id="Contact">
+ <img src="BCSymbol.png" width="150px" height="150px" style="float:left";>
+ <form>
+ <div class="form-container">
+     <h2>Contact Us</h2>
+     <input type="text" placeholder="Your Name" />
+     <input type="email" placeholder="E-Mail" />
+     <textarea cols="30" rows="3" placeholder="Type Your Message"></textarea>
+     <input type="submit" value ="Submit">
+ </div>
+ </form>
+ </section>
+ 
+ <footer id="footer">
+        <h2>NestNPlace &copy; rights reserved</h2>
+    </footer>
+</body>
+
+</html>

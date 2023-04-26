@@ -1,0 +1,87 @@
+<html>
+<body style="background-color:violet;">
+<head>
+    <title>Client Info</title>
+	<style>
+	h1 {text-align: center;
+      font-style: italic;
+      font-size: 170%;}
+	  
+	  #familyphoto1 {
+   width: 250px;
+   height: 250px;
+   object-fit: contain;
+   object-position: left;
+   margin-left: auto;
+   margin-right: auto;
+  }
+	</style>
+</head>
+<body>
+<div>
+<img src= "clipart2.png" alt="" id="familyphoto1">
+
+</div>
+<script>
+document.body.style.backgroundImage = "url('background.jpg')";
+</script>
+<center> <img src="The Nesting Place 2.png" width="350" height="350"> </center>
+<h1 class="slogan">When you need to feel safe, we have your Nesting Place</h1>
+    <form>
+        <fieldset>
+            <legend>Name</legend>            
+            <label>First name: <input type="text" name="firstname"></label>            
+            <label>Last name: <input type="text" name="lastname"></label>
+        </fieldset>
+		<br>
+		<fieldset>
+		    <legend>Street Address</legend>
+			<label>Address: <input type="text" name="city"></label>
+		</fieldset>
+		<br>
+		<fieldset>
+		    <legend>Physical Address</legend>
+			<label>City: <input type="text" name="city"></label>
+			<label>State: <input type="text" name="state"></label>
+			<label>Zip: <input type="text" name="zip"></label>
+		</fieldset>
+		<br>
+		<fieldset>
+            <legend>Contact Details</legend>
+            <label>Email Address: <input type="email" name="email"></label>
+            <label>Phone Number: <input type="text" name="phone"></label>
+        </fieldset>
+		<br>
+        <fieldset>
+            <legend>Gender & Number of Children</legend>            
+            <label><input type="radio" name="gender" value="male"> Male</label>            
+            <label><input type="radio" name="gender" value="female"> Female</label>
+			<label><input type="text" name="number"></label>
+        </fieldset>
+		<br>
+        <fieldset>
+            <legend>Education</legend>
+			<label>Do you have any educational needs? <input type="radio" name="Yesedu" value="Yesedu"> Yes</label>
+			<input type="radio" name="Noedu" value="Noedu"> No</label>
+        </fieldset>
+        <input type="submit" value ="Submit">
+		
+    </form>
+	
+	<img src="BCSymbol.png" width="150px" height="150px" style="float:left";>
+	<form>
+ <div class="form-container">
+     <h2>Contact Us</h2>
+     <input type="text" placeholder="Your Name" />
+     <input type="email" placeholder="E-Mail" />
+     <textarea cols="30" rows="3" placeholder="Type Your Message"></textarea>
+     <input type="submit" value ="Submit">
+	 Business email: theNestNplace@gmail.com
+ </div>
+    </form>
+	
+	<footer id="footer">
+        <h2>NestNPlace &copy; rights reserved</h2>
+    </footer>
+</body>
+</html>
